@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/aaa"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/title_fontSize" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bbb"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap">
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ccc"
+            app:layout_flexBasisPercent="40%" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ddd"
+            app:layout_flexBasisPercent="40%" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eee"
+            app:layout_flexBasisPercent="40%" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fff"
+            app:layout_flexBasisPercent="40%" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ggg"
+            app:layout_flexBasisPercent="40%" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hhh"
+            app:layout_flexBasisPercent="40%" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iii"
+            app:layout_flexBasisPercent="40%" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jjj"
+            app:layout_flexBasisPercent="40%" />
+        <CheckBox
+            android:id="@+id/t2_agro_chk_agroProduct_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kkk"
+            app:layout_flexBasisPercent="40%" />
+        <EditText
+            android:id="@+id/t2_agro_edit_agroProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/lll"
+            app:layout_flexBasisPercent="40%"/>
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mmm"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_evenly">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nnn"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ooo"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorBlackText"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ppp"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_flexBasisPercent="25%" />
+
+        <include layout="@layout/table_separator" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qqq"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="17dp"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_annaBali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="@string/rrr"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sss"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/ttt"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_dhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uuu"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdasd1"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_makai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sdasd21"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdasd7as8"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_kodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdjoja9"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sadu8asi"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_ghau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asod0a"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fasf1234"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_fapar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/laskdiqwe"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdo123"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_oil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/popapw"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asod1230"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_daal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdjio12903"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/laskdpo1u23"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_tarkari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/asjiod1io1"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dqijsod12"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdjio1p2889"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_freshTarkari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/asdoi123"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sdk12341"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdn1i2terotauko"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_aalu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/kasdoiasud99"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdlasd99"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdjiasdjas8"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_masala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/asdu8123"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdj123"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/djjjjj"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_falful"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/slkasodj"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asldqow"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/taisalea"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_kandamul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/asd123400ap"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/askdqiw123"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sdi1234"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_allaichi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/asd1234afs"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asd1244ppoopop"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdasi_ta"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_supari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/sd123_utu"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asd912_ytytu"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/amrosha_0"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_amriso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/kgasd"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aaduba"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_aduwa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/azeroasd"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/kgtakgtara"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/hayyy"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_akabare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/kg"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asd2q2"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_coffee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/kg"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+
+        <EditText
+            android:id="@+id/t2_agro_edit_othersName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/othernameagro"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_othersAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/othecount"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="30%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/kg"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="25%" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asd123124125"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asdasd9as"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/content_fontSize"
+        android:textStyle="bold" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_evenly">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/gaii"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_cowSthaniya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/sankhya"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_cowUnnat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/unnat"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/vasadasfa"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_buffaloSthaniya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/sathaniayaasd"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_buffaloUnnat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/unnatsad"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/boaskas"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_goatSthaniya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/sthanaua"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_goatUnnat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/unnnnast"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/bvedas"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_sheepSthaniya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/sathsa"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_sheepUnnat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/unasdyasd"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sungusrs"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_pigSthaniya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/sathasnungaurs"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_pigUnnat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/unnats"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_othersAnimalName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/asnasya"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_othersAnimalSthaniya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/sahthasd"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_othersAnimalUnnat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/iasduausdas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kaia9"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/content_fontSize"
+        android:textStyle="bold" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_evenly">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/hasda"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_henSthaniya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/jhauvas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_henUnnat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/jausiava"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asjdudas"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_pigeonCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/skanaisay"
+            android:inputType="number"
+            app:layout_flexBasisPercent="64%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_othersBirdName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/naaysanasds"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_othersBirdCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nsakahys"
+            android:inputType="number"
+            app:layout_flexBasisPercent="64%" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aauadas90"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/content_fontSize"
+        android:textStyle="bold" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_evenly">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdu89as"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_fishCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/lkaoysy6"
+            android:inputType="number"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_fishArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/asd289"
+            android:inputType="number"
+            app:layout_flexBasisPercent="36%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mauris"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_beesCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/mauris_u"
+            android:inputType="number"
+            app:layout_flexBasisPercent="64%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_otherOthersName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/masuasd"
+            app:layout_flexBasisPercent="32%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_otherOthersCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/asndyuai9"
+            android:inputType="number"
+            app:layout_flexBasisPercent="64%" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pauspainxuas"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_around">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dansuas"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_milkCurd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/guita"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_ghee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/kgetsaks"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_otherDairy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/asdqoo9"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_meat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/maalsad"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_compost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mutra"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_urine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/unnkg"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_wool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/anada"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_eggs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mamchasa"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_fish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mahas"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_honey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_otherProduceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/aanyakgwal"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="40%" />
+
+        <EditText
+            android:id="@+id/t2_agro_edit_otherProduceAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zerosas"
+            android:inputType="number"
+            app:layout_flexBasisPercent="40%" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/huity6"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <RadioGroup
+        android:id="@+id/t2_agro_rg_sellsProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/t2_agro_rb_sellsProducts_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/jusi99"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/siusi8"
+            android:textSize="@dimen/radio_fontSize" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/t2_agro_layout_sellProductList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGray"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/whytodosao"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/content_fontSize" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexDirection="row"
+            app:flexWrap="wrap"
+            app:justifyContent="space_around">
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/duhdhas"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ghuui"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aanyalamo"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/masu"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fertir0"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testobajalevaneko"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unsunas"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aandasas"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fishyhere"
+                app:layout_flexBasisPercent="40%" />
+
+            <CheckBox
+                android:id="@+id/t2_agro_chk_sellProduct_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mhasahferi"
+                app:layout_flexBasisPercent="40%" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <include layout="@layout/separator" />
+
+        <RadioGroup
+            android:id="@+id/t2_agro_rg_sellProductTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="कहाँ बेच्नुहुन्छ?"
+                android:textColor="@color/colorBlackText"
+                android:textSize="@dimen/content_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/comehomemf"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/gobazar"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/goout"
+                android:textSize="@dimen/radio_fontSize" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/haskaresa"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGray"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yesnobirwau"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/question_fontSize" />
+
+        <RadioGroup
+            android:id="@+id/t2_agro_rg_vegetablePlant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/t2_agro_rb_vegetablePlant_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/helya"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/fuckno"
+                android:textSize="@dimen/radio_fontSize" />
+        </RadioGroup>
+
+        <include layout="@layout/separator" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baliisherea"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/question_fontSize" />
+
+        <RadioGroup
+            android:id="@+id/t2_agro_rg_fruitPlant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/t2_agro_rb_fruitPlant_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/hasira"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/basirama"
+                android:textSize="@dimen/radio_fontSize" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <include layout="@layout/separator" />
+
+</LinearLayout>

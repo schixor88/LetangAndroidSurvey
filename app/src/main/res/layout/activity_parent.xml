@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--1 Samanya Bibaran-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="7dp"
+            android:text="@string/samanya_title1"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhiteText"
+            android:textSize="24sp" />
+
+
+        <include layout="@layout/xml_one_two_prasasanik" />
+
+        <include layout="@layout/xml_one_three_ghar" />
+
+        <include layout="@layout/xml_one_four_ghardhani" />
+
+        <include layout="@layout/xml_one_five_vada" />
+
+        <!--TV 2 Pariwarik bibaran-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="7dp"
+            android:text="@string/pariwarbibaran_t2"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhiteText"
+            android:textSize="24sp" />
+
+        <include layout="@layout/xml_two_one_suchanadata" />
+
+        <include layout="@layout/xml_two_two_gharswamitwa_basai" />
+
+        <LinearLayout
+            android:id="@+id/offline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/xml_two_three_jati_dharma" />
+
+            <!--Basai Sarai TItle-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="@string/basai_sarai_title"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlackText"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <include layout="@layout/xml_two_four_basobas_awasta" />
+
+            <include layout="@layout/xml_two_five_kunsthanbata_ako" />
+
+            <include layout="@layout/xml_two_six_basaisarnu_karan" />
+
+            <include layout="@layout/xml_two_seven_basaiabadhi" />
+
+            <!--Srot sadhan awasta-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="घर तथा घरायसी स्रोत साधनहरूको पहुँचको अवस्था"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlackText"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <include layout="@layout/xml_two_eight_ghar_xa" />
+
+            <include layout="@layout/xml_two_nine_extraghar_xa" />
+
+            <!--Sarbekxan sthan ma vayeko ghar-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="सर्वेक्षण स्थानमा भएको घरसम्बन्धी विवरण"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlackText"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <include layout="@layout/xml_two_ten_to_twenty" />
+
+            <!--Gharayesi samagri taha sadhanko bibaran-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="घरायसी सामाग्री तथा साधनहरूको विवरण"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlackText"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <include layout="@layout/xml_two_tentyone_tewntyfour" />
+
+            <!--Khanepani swastha tatha sarsafai-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="खानेपानी, स्वास्थ्य तथा सरसफाइ पहुँचको अवस्था"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlackText"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <include layout="@layout/xml_two_twentyfive_foutryone" />
+
+            <!--Khanepani subtitle-->
+            <include layout="@layout/xml_two_fortytwo_fiftytwo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+                <!--Toilet subtitle-->
+                <!--<include layout="@layout/xml_fiftythree_fiftyfour_toilet"/>-->
+                <include layout="@layout/t2_1_toilet" />
+
+                <!--Electicity-->
+                <!--<include layout="@layout/xml_fifityfive_electricity"/>-->
+                <include layout="@layout/t2_2_electricity" />
+
+                <!--Arthik-->
+                <!--<include layout="@layout/xml_fiftysix_fiftyseven_arthik"/>-->
+                <include layout="@layout/t2_3_finance" />
+
+                <!--Agriculture-->
+                <!--<include layout="@layout/xml_fiftyeight_sixty_agriculture"/>-->
+                <include layout="@layout/t2_4_agriculture" />
+
+                <!--Aamdhani-->
+                <!--<include layout="@layout/xml_two_sixtyfour_seventy_aamdhani"/>-->
+                <include layout="@layout/t2_5_income_expense" />
+
+                <!--Prakop Surakxya-->
+                <!--<include layout="@layout/xml_two_prakopsurakxya"/>-->
+                <include layout="@layout/t2_6_prakop" />
+
+                <!--Samajik surakxya taha sahavhagi-->
+                <!--<include layout="@layout/xml_two_samajiksurakxya"/>-->
+                <include layout="@layout/t2_7_socail_security" />
+
+                <!--TV 3 Byaktigat bibaran-->
+                <!--<TextView-->
+                <!--android:textAlignment="center"-->
+                <!--android:background="@color/colorPrimary"-->
+                <!--android:textColor="@color/colorWhiteText"-->
+                <!--android:textSize="24sp"-->
+                <!--android:padding="7dp"-->
+                <!--android:text="व्यक्तिगत विवरण"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+                <include layout="@layout/t3_bayktigat_bibaron" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

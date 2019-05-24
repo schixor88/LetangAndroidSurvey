@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/prasanik_biraran"
+                android:textColor="@color/colorBlackText"
+                android:textSize="22sp" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorGray" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/colorBlackText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pradesh_no"
+                        android:padding="10dp"
+                        />
+                    <EditText
+                        android:padding="10dp"
+                        android:editable="false"
+                        android:id="@+id/et_pradesh_no"
+                        android:textAlignment="center"
+                        android:text="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jilla"
+                android:padding="10dp"
+                android:textColor="@color/colorBlackText"
+                />
+
+                <EditText
+                    android:textColor="@color/colorBlackText"
+                    android:editable="false"
+                    android:id="@+id/et_jilla"
+                    android:textAlignment="center"
+                    android:text="@string/morang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+
+                android:textColor="@color/colorBlackText"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nagarpalika"
+                android:padding="10dp"
+                />
+
+                <EditText
+                    android:textColor="@color/colorBlackText"
+                    android:textAlignment="center"
+                    android:editable="false"
+                    android:text="@string/letang"
+                    android:id="@+id/et_nagarpalika"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_ward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/wardno"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColorHint="@color/colorBlackText" />
+
+            <EditText
+                android:id="@+id/et_bastiname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bastikoname"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:textColorHint="@color/colorBlackText" />
+
+            <EditText
+                android:id="@+id/et_tolename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tolename"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:textColorHint="@color/colorBlackText" />
+
+            <EditText
+                android:id="@+id/et_sadakname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sadak_marga"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:textColorHint="@color/colorBlackText" />
+
+            <EditText
+                android:id="@+id/et_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:padding="0dp"
+                android:text="1" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

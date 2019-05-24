@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--new from t3_transport-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/t2_aamadani"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/title_fontSize" />
+
+
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_evenly">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/t2_rojgar_byakti"
+            android:textColor="@color/colorBlackText"
+            android:textSize="18dp"
+            app:layout_flexBasisPercent="75%" />
+
+        <EditText
+            android:id="@+id/shift_family_work_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="20%"
+            android:inputType="number"
+            android:hint="0"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/t2_byawasaye"
+            android:textColor="@color/colorBlackText"
+            android:textSize="18dp"
+            app:layout_flexBasisPercent="75%" />
+
+        <EditText
+            android:id="@+id/shift_family_business_count"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="20%"
+            android:hint="0"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/t2_aadhyan_student"
+            android:textColor="@color/colorBlackText"
+            android:textSize="18dp"
+            app:layout_flexBasisPercent="75%" />
+
+        <EditText
+            android:id="@+id/shift_family_study_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            app:layout_flexBasisPercent="20%"
+            android:hint="0" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t2_aamdani_ask"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_around">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_pasu_palan"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_agriculture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_uudhyogss"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_business"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_nokariis"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_samajiks"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_socialAllowance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_y_bidesh"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_abroadJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_jyala_majduri"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_wages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_ghar_vada"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_bachatts"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_bankInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_aanya"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_income_edit_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t2_9"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_around">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_10"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t4_11"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_cloth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t4_12"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_123"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_989"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_entertainment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_housev"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_what"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_agriculture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t4_vhuktani"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_installmentFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_petrols"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_machines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_nepal_yatayat"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_transport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t2_omg"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/radio_fontSize"
+            app:layout_flexBasisPercent="70%" />
+
+        <EditText
+            android:id="@+id/t2_expense_edit_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            app:layout_flexBasisPercent="27%" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t2_ghat_tobidesh"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <RadioGroup
+        android:id="@+id/t2_income_rg_worksAbroad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/t2_income_rg_worksAbroad_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="छ"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="छैन"
+            android:textSize="@dimen/radio_fontSize" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/t2_income_layout_worksAbroad_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGray"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="छ भने"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/content_fontSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t2_kuchvi"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/question_fontSize" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexDirection="row"
+            app:flexWrap="wrap"
+            app:justifyContent="space_evenly">
+
+            <CheckBox
+                android:id="@+id/t2_expense_chk_remittance_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t5_dainaiks"
+                app:layout_flexBasisPercent="40%" />
+
+
+            <CheckBox
+                android:id="@+id/t2_expense_chk_remittance_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/T7_yoyo"
+                app:layout_flexBasisPercent="40%" />
+
+
+            <CheckBox
+                android:id="@+id/t2_expense_chk_remittance_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t6_paydebts"
+                app:layout_flexBasisPercent="40%" />
+
+
+            <CheckBox
+                android:id="@+id/t2_expense_chk_remittance_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fg_5"
+                app:layout_flexBasisPercent="40%" />
+
+
+            <CheckBox
+                android:id="@+id/t2_expense_chk_remittance_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weq"
+                app:layout_flexBasisPercent="40%" />
+
+
+            <CheckBox
+                android:id="@+id/t2_expense_chk_remittance_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fhghj"
+                app:layout_flexBasisPercent="40%" />
+
+
+            <CheckBox
+                android:id="@+id/t2_expense_chk_remittance_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gfgr"
+                app:layout_flexBasisPercent="40%" />
+
+
+            <CheckBox
+                android:id="@+id/t2_expense_chk_remittance_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vbvb"
+                app:layout_flexBasisPercent="40%" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asdd_0"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_investments_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yuyuy" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_investments_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="शेयर कारोवार" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_investments_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ioasd" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_investments_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saudasd_u" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_investments_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="अन्य" />
+
+    </LinearLayout>
+
+    <include layout="@layout/separator" />
+
+    <RadioGroup
+        android:id="@+id/t2_income_rg_productSustainFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asdas"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/question_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/asd2"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/ascvvcb"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/vbvbxc"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/vbcvbcvbc"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/zxxx"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/xcscs"
+            android:textSize="@dimen/radio_fontSize" />
+    </RadioGroup>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frfrgh"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <RadioGroup
+        android:id="@+id/t2_income_rg_incomeSufficient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/ioio"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:id="@+id/t2_income_rb_incomeSufficient_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/oppopopoa"
+            android:textSize="@dimen/radio_fontSize" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/t2_income_layout_incomeSufficient_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGray"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bgjiso"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/question_fontSize" />
+
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_addCash_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/zxcas"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_addCash_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="ऋण"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_addCash_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/zxcaw"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_addCash_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/asdwdr"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <CheckBox
+            android:id="@+id/t2_agro_chk_addCash_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/cvettsa"
+            android:textSize="@dimen/radio_fontSize" />
+    </LinearLayout>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asd22pp0"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <RadioGroup
+        android:id="@+id/t3_shift_rg_bankAC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/t3_shift_rg_bankAC_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/xxxccccccca"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/no_xccccccca"
+            android:textSize="@dimen/radio_fontSize" />
+    </RadioGroup>
+
+    <include layout="@layout/separator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yesuiasd"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <RadioGroup
+        android:id="@+id/t2_income_rg_loan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/t2_income_rb_loan_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/huhuhuas"
+            android:textSize="@dimen/radio_fontSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/ooais"
+            android:textSize="@dimen/radio_fontSize" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/t2_income_layout_loan_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightGray"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wfqw"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/content_fontSize" />
+
+        <CheckBox
+            android:id="@+id/t2_income_chk_loanSource_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asd2d2" />
+
+        <CheckBox
+            android:id="@+id/t2_income_chk_loanSource_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uoiasd" />
+
+        <CheckBox
+            android:id="@+id/t2_income_chk_loanSource_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khoyo" />
+
+        <CheckBox
+            android:id="@+id/t2_income_chk_loanSource_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sala" />
+
+        <CheckBox
+            android:id="@+id/t2_income_chk_loanSource_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hatsala" />
+
+        <CheckBox
+            android:id="@+id/t2_income_chk_loanSource_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lamosas" />
+
+        <RadioGroup
+            android:id="@+id/t2_income_rg_takenLoanFor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/khotabnabxa"
+                android:textColor="@color/colorBlackText"
+                android:textSize="@dimen/question_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/sadwopopa"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/ccvxasdqp"
+                android:textSize="@dimen/radio_fontSize" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/ddddd"
+                android:textSize="@dimen/radio_fontSize" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/llllll"
+                android:textSize="@dimen/radio_fontSize" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/zxczxczxcaslkhgf"
+                android:textSize="@dimen/radio_fontSize" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/kasduiaw"
+                android:textSize="@dimen/radio_fontSize" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/asdhiwq"
+                android:textSize="@dimen/radio_fontSize" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/asdashda90"
+                android:textSize="@dimen/radio_fontSize" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/asudhiuq9"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/as9duasd"
+                android:textSize="@dimen/radio_fontSize" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/t2_income_rg_durationToClearLoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asdhhiuas9"
+                android:textColor="@color/colorBlackText"
+                android:textSize="@dimen/question_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/ahu221"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/kjhg56"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/jasid8"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/jdalisd89"
+                android:textSize="@dimen/radio_fontSize" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/urwur99"
+                android:textSize="@dimen/radio_fontSize" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <include layout="@layout/separator" />
+
+</LinearLayout>

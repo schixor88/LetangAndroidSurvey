@@ -1,0 +1,789 @@
+<resources>
+    <string name="app_name">Letang Data</string>
+
+
+    <string-array name="religion">
+        <item>हिन्दू</item>
+        <item>बौद्ध</item>
+        <item>इस्लाम</item>
+        <item>क्रिश्चियन</item>
+        <item>किराँत</item>
+        <item>शिख</item>
+        <item>जैन</item>
+        <item>बताउन नचाहेको</item>
+        <item>अन्य</item>
+    </string-array>
+
+
+    <string name="A">टामान्ो वववरण </string>
+    <string name="a1">घरधनीकज वववरण </string>
+    <string name="ghardhani_name">1. घरधनीको नाम </string>
+    <string name="ghardhani_sex">2. मलङ्ग </string>
+    <string name="ghardhani_contact">3. मोबाइल नं </string>
+    <string name="samanya_title1">सामान्य विवरण</string>
+    <string name="prasanik_biraran">प्रशासनिक विवरण</string>
+    <string name="pradesh_no">प्रदेश नं:</string>
+    <string name="jilla">जिल्ला</string>
+    <string name="morang">Morang</string>
+    <string name="nagarpalika">नगरपालिका</string>
+    <string name="letang">Letang</string>
+    <string name="wardno">बार्ड नं</string>
+    <string name="bastikoname">बस्तीको नाम</string>
+    <string name="tolename">टोलको नाम</string>
+    <string name="sadak_marga">सडक मार्गको नाम</string>
+    <string name="ghar_bibranan">घरको विवरण</string>
+    <string name="aakanxhya">अक्षांशः</string>
+    <string name="desantar">देशान्तरः</string>
+    <string name="altitude">उँचाइः</string>
+    <string name="house_code">घर नं कोड</string>
+    <string name="gharkoname">घरधनीको नाम</string>
+    <string name="linga">लिङ्ग</string>
+    <string name="purush">पुरूष</string>
+    <string name="mahila">महिला</string>
+    <string name="mobileno">मोबाइल नं</string>
+    <string name="vada_title">भाडामा रहेको परिवार विवरण (घरधनीलाइ सोध्ने)</string>
+    <string name="vada_population">भाडामा बस्ने जम्मा परिवार संख्या</string>
+    <string name="ghar_uudhyam_byabasaye">तपाईंको घरमा सन्चालन उद्धम ब्यवसाय खुलाउनुहोस</string>
+    <string name="pariwarbibaran_t2">पारिवारिक विवरण</string>
+    <string name="suchanadata_bibaran">परिवार सूचनादाताको विवरण</string>
+    <string name="name">नाम</string>
+    <string name="lingaa">लिङ्ग</string>
+    <string name="purus">पुरूष</string>
+    <string name="mahilaa">महिला</string>
+    <string name="umers">उमेर</string>
+    <string name="dhuri_email">घरधुरीके सम्पर्क इमेल</string>
+    <string name="ghar_swamitwa_basai">घरको स्वामित्व र बसाइ अवधि</string>
+    <string name="swamitwa">स्वामित्व</string>
+    <string name="ghardhani">घरधनी</string>
+    <string name="vada_take">भाडा</string>
+    <string name="basai_aabadhi_time">बसाई अवधि</string>
+    <string name="lessthan6">६ महिना भन्दा कम</string>
+    <string name="morethan6">६ महिना भन्दा बढी</string>
+    <string name="jativasadharma">जाति, भाषा, धर्म विवरण</string>
+    <string name="jatiya_samuha">जातीय समूह</string>
+    <string name="dalit">दलित</string>
+    <string name="sanyasi">सन्यासी (दशनामी)</string>
+    <string name="janjati">जनजाती</string>
+    <string name="madesi">मधेसी</string>
+    <string name="aanya">अन्य</string>
+    <string name="jatjati2">जातजाती</string>
+    <string name="dharma2">धर्म</string>
+    <string name="matrivasa_of">मातृभाषा</string>
+    <string name="basai_sarai_title">बसाइ सराइ सम्बन्धी विवरण</string>
+    <string name="pariwarbasobas">तपाइको परिवारको बसोबासको अवस्था कस्तो हो ?</string>
+    <string name="raithane">रैथाने</string>
+    <string name="after2070">२०७० पछि आएको</string>
+    <string name="after2060">२०६० पछि आएको</string>
+    <string name="after2050">२०५० पछि आएको</string>
+    <string name="after2040">२०४० पछि आएको</string>
+    <string name="where_you_comefrom">कुन स्थानबाट आउनु भएको हो? (रैथाने बाहेक अरूलाई)</string>
+    <string name="hereNp">यही नपा</string>
+    <string name="thisJilla">यही जिल्ला</string>
+    <string name="npajpa">( नपा/ गापा )</string>
+    <string name="thisJillas">अन्य जिल्ला</string>
+    <string name="bideshbatacome">विदेशबाट</string>
+    <string name="basaikaran_exceptraithane">यहाँ बसाइ सर्नुको कारण के होला? (रैथाने बाहेकलाई)?</string>
+    <string name="rojgari">रोजगारी</string>
+    <string name="teachings">शिक्षा</string>
+    <string name="aarthikaabasr">आर्थिक अवसर</string>
+    <string name="surakshyaa">सुरक्षा</string>
+    <string name="biwahaa">विवाह</string>
+    <string name="byabasayesipp">नोकरी व्यवसाय ৴शिप</string>
+    <string name="basaiaabadhi">बसाइको अवधि कस्तो हो??</string>
+    <string name="niyamit">नियमित</string>
+    <string name="lessthanof6">वर्षमा ६ महिनाभन्दा कम</string>
+    <string name="title_a1_final">घरधनीको विवरण</string>
+    <string name="t3_1">व्यक्तिगत विवरण</string>
+    <string name="t3_12">परिवार सदस्य संख्या</string>
+    <string name="t2_aamadani">आम्दानी खर्चको विवरण</string>
+    <string name="t2_rojgar_byakti">परिवारमा जागिरे व्यक्ति को संख्या</string>
+    <string name="t2_byawasaye">परिवारमा व्यवसाय गर्ने व्यक्तिको संख्या</string>
+    <string name="t2_aadhyan_student">परिवारमा अध्ययन गर्ने व्यक्तिको संख्या</string>
+    <string name="t2_aamdani_ask">परिवारको गत वर्षको बार्षिक आम्दानी कति थियो? (रकम)</string>
+    <string name="t2_pasu_palan">कृषि तथा पशुपालन (रकम)</string>
+    <string name="t2_uudhyogss">व्यापार तथा उद्योग (रकम)</string>
+    <string name="t2_nokariis">नोकरी तथा पेन्सन (रकम)</string>
+    <string name="t2_samajiks">सामाजिक भत्ता (रकम)</string>
+    <string name="t2_y_bidesh">बैदेशिक रोजगार (रकम)</string>
+    <string name="t2_jyala_majduri">ज्याला मजदुरी (रकम)</string>
+    <string name="t2_ghar_vada">घरभाडा (रकम)</string>
+    <string name="t2_bachatts">बचत तथा लगानी व्याज (रकम)</string>
+    <string name="t2_aanya">अन्य (रकम)</string>
+    <string name="t2_9">परिवारको गत वर्षको बार्षिक खर्च कति थियो? (रकम)</string>
+    <string name="t2_10">खाना (रकम)</string>
+    <string name="t4_11">लत्ता कपडा (रकम)</string>
+    <string name="t4_12">शिक्षा (रकम)</string>
+    <string name="t2_123">स्वास्थ्य (रकम)</string>
+    <string name="t2_989">मनोरञ्जन, चाडपर्व तथा सामाजिक कार्य (रकम)</string>
+    <string name="t2_housev">घरभाडा (रकम)</string>
+    <string name="t2_what">कृषि तथा पशुपालन (रकम)</string>
+    <string name="t4_vhuktani">किस्ता भुक्तानी (रकम)</string>
+    <string name="t2_petrols">इन्धन (रकम)</string>
+    <string name="t2_nepal_yatayat">यातायात (रकम)</string>
+    <string name="t2_omg">अन्य (रकम)</string>
+    <string name="t2_ghat_tobidesh">घरमा कोही बैदिशिक रोजगारको लागि जानुभएको छ?</string>
+    <string name="t2_kuchvi">गत १ बर्षभित्र प्राप्त रेमिट्यान्स के के मा खर्च गर्नुभयो?</string>
+    <string name="t5_dainaiks">दैनिक उपभोग</string>
+    <string name="T7_yoyo">व्यवसाय लगानी</string>
+    <string name="t6_paydebts">ऋण तिर्न</string>
+    <string name="fg_5">सामाजिक कार्य</string>
+    <string name="weq">शिक्षा स्वास्थ्य</string>
+    <string name="fhghj">अन्य</string>
+    <string name="gfgr">घरायसी सम्पत्ति</string>
+    <string name="vbvb">बचत</string>
+    <string name="asdd_0">परिवारले गत वर्षसम्म गरेका आर्थिक लगानीका क्षेत्रहरू</string>
+    <string name="yuyuy">घरजग्गा</string>
+    <string name="ioasd">सहकारी</string>
+    <string name="saudasd_u">उद्योग तथा व्यापार</string>
+    <string name="asdas">आफ्नो खाद्यान्न उत्पादनले मात्र वर्षमा कति महिना खान पुग्छ?</string>
+    <string name="asd2">३ महिनाभन्दा कम खान पुग्ने</string>
+    <string name="ascvvcb">४–६ महिना खान पुग्ने</string>
+    <string name="vbvbxc">७–९ महिना खान पुग्ने</string>
+    <string name="vbcvbcvbc">१०–१२ महिना खान पुग्ने</string>
+    <string name="zxxx">आफ्नो उत्पादन खान पुगेर बेच विखन गर्ने</string>
+    <string name="xcscs">उत्पादन नभएको</string>
+    <string name="frfrgh">तपाईको कूल आम्दानीले वार्षिक खर्च धान्न पुग्छ वा पुग्दैन?</string>
+    <string name="ioio">पुग्छ</string>
+    <string name="oppopopoa">पुग्दैन</string>
+    <string name="bgjiso">पुग्दैन भने थप व्यवस्थापन (बहुउत्तर)</string>
+    <string name="zxcas">संचित धनको प्रयोग</string>
+    <string name="zxcaw">पैंचो सापटी</string>
+    <string name="asdwdr">चलअचल सम्पत्ति बिक्री</string>
+    <string name="cvettsa">अन्य</string>
+    <string name="asd22pp0">तपाईको परिवार को (कुनै पनि सदश्यको) बैंकमा खाता छ?</string>
+    <string name="xxxccccccca">छ</string>
+    <string name="no_xccccccca">छैन</string>
+    <string name="yesuiasd">परिवारमा हाल कतैबाट ऋण सापटी लिएको छ?</string>
+    <string name="huhuhuas">छ</string>
+    <string name="ooais">छैन</string>
+    <string name="wfqw">यदि छ भने कता बाट</string>
+    <string name="asd2d2">बैंक वा वित्तीय संस्था</string>
+    <string name="uoiasd">सहकारी संस्था</string>
+    <string name="khoyo">समुह वा सामुदायिक संस्था</string>
+    <string name="sala">साहु महाजन</string>
+    <string name="hatsala">इष्टमित्र</string>
+    <string name="lamosas">नातेदार</string>
+    <string name="khotabnabxa">उक्त ऋण कुन उद्देश्यका लागि लिनु भएको थियो?</string>
+    <string name="sadwopopa">घरायसी वा घर खर्च</string>
+    <string name="ccvxasdqp">कृषि तथा पशुपालन</string>
+    <string name="ddddd">उद्योग व्यापार</string>
+    <string name="llllll">सामाजिक, धार्मिक कार्य</string>
+    <string name="zxczxczxcaslkhgf">शिक्षा</string>
+    <string name="kasduiaw">औषधि उपचार</string>
+    <string name="asdhiwq">घरजग्गा खरिद वा निर्माण</string>
+    <string name="asdashda90">शेयर लगानी</string>
+    <string name="asudhiuq9">सवारी साधन</string>
+    <string name="as9duasd">अन्य</string>
+    <string name="asdhhiuas9">ऋण चुक्ता गर्न कति समय लाग्छ?</string>
+    <string name="ahu221">६ महिना देखि १ वर्ष</string>
+    <string name="kjhg56">१ वर्ष देखि २ वर्ष</string>
+    <string name="jasid8">२ वर्ष देखि ४ वर्ष</string>
+    <string name="jdalisd89">४ बर्ष देखि ६ वर्ष</string>
+    <string name="urwur99">६ वर्ष भन्दा माथि</string>
+    <string name="asdasd">शौचालय सम्बन्धी विवरण</string>
+    <string name="asdasdasdasda">शौचालय छ वा छैन?</string>
+    <string name="ioasdc">छ</string>
+    <string name="iashdiuqw">छैन</string>
+    <string name="aiuwndq">छ भने कस्तो</string>
+    <string name="ndunq">कच्ची (फ्लस नभएको)</string>
+    <string name="adui2">पक्की (फ्लस भएको)</string>
+    <string name="ecosanns">ECOSAN (खाल्डो वाला)</string>
+    <string name="jtajsia90">शौचालय नभएको</string>
+    <string name="mmmmmmm">शौचालय कता छ?</string>
+    <string name="dq12oj31">घरभित्र</string>
+    <string name="dmi21">बाहिर</string>
+    <string name="jio123">चर्पीको फोहर कसरी व्यवस्थापन गर्नुभएको छ?</string>
+    <string name="jiosadiou72981">सेफ्टीक टेंक</string>
+    <string name="dok12">खाल्डो खनेर</string>
+    <string name="cr7sa">लिफ्ट गरेर</string>
+    <string name="radias9123">अन्य</string>
+    <string name="dahui1230">अन्य</string>
+    <string name="d1i2j3k">विद्युतीय सेवाहरूमा पहुँच</string>
+    <string name="ashdu1">तपाईको परिवारले के के सेवाहरू अनलाइन तथा एप्स् मार्फत लिने गरेको छ?</string>
+    <string name="heyraam">बैंक৴एटीएम</string>
+    <string name="toitsala">पर्यटन</string>
+    <string name="asjdui124">सामाजिक सुरक्षा भत्ता</string>
+    <string name="asdjio12">उद्योग</string>
+    <string name="asdjio12asd">व्यनक्तिगत घटना दर्ता</string>
+    <string name="nkadsjq">खरीद</string>
+    <string name="asdjio1">कर प्रणाली</string>
+    <string name="maskkkksi">बिक्री</string>
+    <string name="mt848">दैनिक उपभोग सामग्री</string>
+    <string name="davshool">स्वास्थ्य</string>
+    <string name="njdhgfp">स्वास्थ्य</string>
+    <string name="lastaivoyar">सञ्चार</string>
+    <string name="asdjioq123">खानेपानी</string>
+    <string name="asjod8846">कृषि</string>
+    <string name="otitotitot0">अन्य</string>
+    <string name="idsoq00">आर्थिक पहुँचको अवस्था</string>
+    <string name="ijlkasd99">परिवारको मुख्य पेशा?</string>
+    <string name="asjdi299">कृषि तथा पशुपालन</string>
+    <string name="asd92">नोकरी</string>
+    <string name="asdji299">व्यापार</string>
+    <string name="asdkoqwmd66">उद्यम, व्यवसाय</string>
+    <string name="asdjiasid223">सरकारी जागिर</string>
+    <string name="uutituti">दैनिक ज्यालादारी</string>
+    <string name="asashma">निजिक्षेत्र मा रोजगार</string>
+    <string name="asdj2i2i">बैदेशिक रोजगार</string>
+    <string name="asdkvas">स्वरोजगार</string>
+    <string name="kaisuiatt">अन्य</string>
+    <string name="picakhshu">अन्य</string>
+    <string name="aaa">कृषिजन्य उत्पादन तथा खाद्य सुरक्षा (पेशा छ भने)</string>
+    <string name="bbb">तपाईको परिवारले मुख्यता के कस्तो कृषि उत्पादन गर्छ?</string>
+    <string name="ccc">अन्न (मकै, कोदो, गहुँ, धान)</string>
+    <string name="ddd">दुध तथा दुग्ध पदार्थ</string>
+    <string name="eee">तरकारी</string>
+    <string name="fff">महुरी पालन</string>
+    <string name="ggg">माछा पालन</string>
+    <string name="hhh">फलफुल</string>
+    <string name="iii">पशुपंक्षी पालन</string>
+    <string name="jjj">मासुजन्य पशुपालन</string>
+    <string name="kkk">कुनै पनि छैन</string>
+    <string name="lll">अन्य</string>
+    <string name="mmm">खेतीपातीबाट गत वर्षको उत्पादन</string>
+    <string name="nnn">नाम</string>
+    <string name="ooo">संख्या</string>
+    <string name="ppp">केजी</string>
+    <string name="qqq">अन्नबाली</string>
+    <string name="rrr">अन्नबाली</string>
+    <string name="sss">(केजी)</string>
+    <string name="ttt">धान</string>
+    <string name="uuu">(केजी)</string>
+    <string name="asdasd1">मकै</string>
+    <string name="sdasd21">(केजी)</string>
+    <string name="asdasd7as8">कोदो</string>
+    <string name="asdjoja9">(केजी)</string>
+    <string name="sadu8asi">गहुँ</string>
+    <string name="asod0a">(केजी)</string>
+    <string name="fasf1234">फापर</string>
+    <string name="laskdiqwe">(केजी)</string>
+    <string name="asdo123">तेलहन बाली</string>
+    <string name="popapw">(केजी)</string>
+    <string name="asod1230">दालहन वाली</string>
+    <string name="asdjio12903">(केजी)</string>
+    <string name="laskdpo1u23">तरकारी बाली</string>
+    <string name="dqijsod12">(केजी)</string>
+    <string name="asjiod1io1">0</string>
+    <string name="asdjio1p2889">ताजा तरकारी</string>
+    <string name="asdoi123">0</string>
+    <string name="sdk12341">(केजी)</string>
+    <string name="asdn1i2terotauko">आलु</string>
+    <string name="kasdoiasud99">0</string>
+    <string name="asdlasd99">(केजी)</string>
+    <string name="asdjiasdjas8">मसलाबाली</string>
+    <string name="asdu8123">0</string>
+    <string name="asdj123">(केजी)</string>
+    <string name="djjjjj">फलफूल खेती</string>
+    <string name="slkasodj">0</string>
+    <string name="asldqow">(केजी)</string>
+    <string name="taisalea">कन्दमूल</string>
+    <string name="asd123400ap">0</string>
+    <string name="askdqiw123">(केजी)</string>
+    <string name="sdi1234">अलैन्ची</string>
+    <string name="asd1234afs">0</string>
+    <string name="asd1244ppoopop">(केजी)</string>
+    <string name="asdasi_ta">सुपारी</string>
+    <string name="sd123_utu">0</string>
+    <string name="asd912_ytytu">(केजी)</string>
+    <string name="amrosha_0">अम्रीशो</string>
+    <string name="zerosas">0</string>
+    <string name="kgasd">(केजी)</string>
+    <string name="aaduba">अदुवा</string>
+    <string name="azeroasd">0</string>
+    <string name="kgtakgtara">(केजी)</string>
+    <string name="hayyy">अकबरे</string>
+    <string name="kg">(केजी)</string>
+    <string name="asd2q2">कफी</string>
+    <string name="othernameagro">अन्य (नाम)</string>
+    <string name="othecount">अन्य (संख्या)</string>
+    <string name="asd123124125">परिवारको पशुपंक्षी धन कति छ?</string>
+    <string name="asdasd9as">पशुधन</string>
+    <string name="gaii">गार्इ गोरू</string>
+    <string name="sankhya">स्थानीय संख्या</string>
+    <string name="unnat">उन्नत संख्या</string>
+    <string name="vasadasfa">भैंसी राँगा</string>
+    <string name="sathaniayaasd">स्थानीय संख्या</string>
+    <string name="unnatsad">उन्नत संख्या</string>
+    <string name="boaskas">बोका खसी बाख्रा</string>
+    <string name="sthanaua">स्थानीय संख्या</string>
+    <string name="unnnnast">उन्नत संख्या</string>
+    <string name="bvedas">भेडा च्याङ्रग्रा</string>
+    <string name="sathsa">स्थानीय संख्या</string>
+    <string name="unasdyasd">उन्नत संख्या</string>
+    <string name="sungusrs">सुँगुर बँगुर</string>
+    <string name="sathasnungaurs">स्थानीय संख्या</string>
+    <string name="unnats">उन्नत संख्या</string>
+    <string name="asnasya">अन्य(नाम)</string>
+    <string name="sahthasd">स्थानीय संख्या</string>
+    <string name="iasduausdas">उन्नत संख्या</string>
+    <string name="kaia9">पंक्षी</string>
+    <string name="hasda">कुखुरा हाँस</string>
+    <string name="jhauvas">स्थानीय संख्या</string>
+    <string name="jausiava">उन्नत संख्या</string>
+    <string name="asjdudas">परेवा</string>
+    <string name="skanaisay">संख्या</string>
+    <string name="naaysanasds">अन्य(नाम)</string>
+    <string name="nsakahys">संख्या</string>
+    <string name="aauadas90">अन्य</string>
+    <string name="asdu89as">माछा पोखरी</string>
+    <string name="lkaoysy6">संख्या</string>
+    <string name="asd289">पोखरी क्षेत्रफल</string>
+    <string name="mauris">मौरी घार</string>
+    <string name="mauris_u">संख्या</string>
+    <string name="masuasd">अन्य(नाम)</string>
+    <string name="asndyuai9">संख्या</string>
+    <string name="pauspainxuas">पशुपंक्षीबाट गत बर्ष कति उत्पादन भयो?</string>
+    <string name="dansuas">दूध वा दही (लि)</string>
+    <string name="guita">घिउ (केजी)</string>
+    <string name="kgetsaks">अन्य दुग्ध पदार्थ (केजी)</string>
+    <string name="asdqoo9">मासु (केजी)</string>
+    <string name="maalsad">मल (क्वीन्टल)</string>
+    <string name="mutra">मूत्र (लि)</string>
+    <string name="unnkg">ऊन (केजी)</string>
+    <string name="anada">अण्डा (गोटा)</string>
+    <string name="mamchasa">माछा (केजी)</string>
+    <string name="mahas">मह (केजी)</string>
+    <string name="aanyakgwal">अन्य (केजी)</string>
+    <string name="huity6">उत्पादनहरू बिक्री गर्नुहुन्छ?</string>
+    <string name="jusi99">गर्छु</string>
+    <string name="siusi8">गर्दिन</string>
+    <string name="whytodosao">गर्छु भने के के?</string>
+    <string name="duhdhas">दूध वा दही</string>
+    <string name="ghuui">घिउ</string>
+    <string name="aanyalamo">अन्य दुग्ध पदार्थ</string>
+    <string name="masu">मासु</string>
+    <string name="fertir0">मल</string>
+    <string name="testobajalevaneko">मूत्र</string>
+    <string name="unsunas">ऊन</string>
+    <string name="aandasas">अण्डा</string>
+    <string name="fishyhere">माछा</string>
+    <string name="mhasahferi">मह</string>
+    <string name="comehomemf">घरमै आउँछ</string>
+    <string name="gobazar">स्थानीय बजार</string>
+    <string name="goout">बाहिर</string>
+    <string name="haskaresa">करेसबारी भए</string>
+    <string name="yesnobirwau">तपाईको घरमा फलफूलका विरूवाहरू रोपिएका छन्? (घरधनी)</string>
+    <string name="helya">छ</string>
+    <string name="fuckno">छैन</string>
+    <string name="baliisherea">तपाईको घरमा तरकारी बाली लगाइन्छ?</string>
+    <string name="hasira">छ</string>
+    <string name="basirama">छैन</string>
+    <string name="p1">प्रकोप सुरक्षाको अवस्था</string>
+    <string name="p2">आवासीय सुरक्षा</string>
+    <string name="p3">तपाईलाई भवन संहितको बारेमा थाहा छ?</string>
+    <string name="p4">छ</string>
+    <string name="p5">छैन</string>
+    <string name="p6">तपाईको घर भवन संहिता अनुसार निर्माण भएको छ?</string>
+    <string name="p8">छ</string>
+    <string name="p9">छैन</string>
+    <string name="p10">थाहा छैन</string>
+    <string name="p11">तपाईले घर निर्माण गर्दा नपाबाट अनुमति पत्र, नक्सा पास लिनु भएको छ?</string>
+    <string name="p12">छ</string>
+    <string name="p13">छैन</string>
+    <string name="p14">तपाईको घर छेउमा खुल्ला सुरक्षित क्षेत्र छ?</string>
+    <string name="p15">छ</string>
+    <string name="p16">छैन</string>
+    <string name="p17">तपाईको घर प्राकृतिक प्रकोप जस्तै बाढी, पहिरो आदी जोखिम क्षेत्रमा छ?</string>
+    <string name="p18">छ</string>
+    <string name="p19">छैन</string>
+    <string name="p20">के तपाईले रेडियो लगायतका संचार माध्यम मार्फत भूकम्पिय जोखिम न्यूनिकरणबारे प्रभावकारी सूचना प्राप्त गर्नु भएको छ?</string>
+    <string name="p21">छ</string>
+    <string name="p22">छैन</string>
+    <string name="p23">भूकम्प आएको बेलाको अवस्थाको लागि घरभित्रका सुरक्षित स्थानहरू पहिचान गर्नुभएको छ?</string>
+    <string name="p24">छ</string>
+    <string name="p25">छैन</string>
+    <string name="p26">के तपाईल्रे आपतकालिन समयका लागि काम लाग्ने सामानहरू जुटाएर राख्नुभएको छ?</string>
+    <string name="p27">छ</string>
+    <string name="p28">छैन</string>
+    <string name="p29">प्रकोपको असर</string>
+    <string name="p30">१० वर्ष यता परिवारलाई कस्ता प्रकोपहरूबाट क्षति भएको छ</string>
+    <string name="p31">बाढी पहिरो</string>
+    <string name="p32">खँडेरी</string>
+    <string name="p33">जनावर आतंक</string>
+    <string name="p34">आगलागी</string>
+    <string name="p35">असिना, चटयांक, करेन्ट</string>
+    <string name="p36">महामारीबाट</string>
+    <string name="p37">भूकम्प</string>
+    <string name="p38">चोरी, डकैती, काटमार दुर्घटना</string>
+    <string name="p39">हुरी बतास</string>
+    <string name="p40">अन्य दुर्घटना</string>
+    <string name="p41">पछिल्लो पटक भोग्नुपरेको सबैभन्दा असरयुक्त प्रकोप के थियो?</string>
+    <string name="p42">प्रकोप</string>
+    <string name="p43">प्रकोप नाम</string>
+    <string name="p44">साल</string>
+    <string name="p345">साल</string>
+    <string name="p46">क्षति</string>
+    <string name="p47">क्षति रू</string>
+    <string name="p48">सम्पत्ति वीमा गरेको छ?</string>
+    <string name="p49">छ</string>
+    <string name="p50">छैन</string>
+    <string name="p51">छ भने के को वीमा गरिएको</string>
+    <string name="p52">पशु</string>
+    <string name="p53">घर</string>
+    <string name="p54">मेसिन तथा औजार</string>
+    <string name="p55">बाली</string>
+    <string name="p56">अन्य</string>
+    <string name="p57">प्राकृतिक प्रकोप जोखिम न्युनीकरणका लागि कस्ता पूर्व तयारीहरू गर्नुभएको छ?</string>
+    <string name="p58">पूर्व चेतावनी</string>
+    <string name="p59">सुरक्षा तथा उद्धार सामाग्री</string>
+    <string name="p60">प्राथमिक उपचार सेवा</string>
+    <string name="p61">पुनस्थापना</string>
+    <string name="p62">वीमा</string>
+    <string name="p63">उद्धार सेवा तथा संयन्त्र</string>
+    <string name="p64">द्वन्द्व</string>
+    <string name="p65">परिवार द्वन्द्व पीडित हो?</string>
+    <string name="p66">हो</string>
+    <string name="p67">हैन</string>
+    <string name="p68">हो भने</string>
+    <string name="p69">मृत्यु संख्या</string>
+    <string name="p70">0</string>
+    <string name="p71">घाइते संख्या</string>
+    <string name="p72">0</string>
+    <string name="p73">वेपत्ता संख्या</string>
+    <string name="p74">0</string>
+    <string name="p75">धन सम्पत्ति क्षति (रकम)</string>
+    <string name="p76">0</string>
+    <string name="p77">मुद्दा</string>
+    <string name="p78">छ</string>
+    <string name="p79">छैन</string>
+    <string name="p80">विस्थापित</string>
+    <string name="p81">हो</string>
+    <string name="p82">हैन</string>
+    <string name="p83">यौन दुर्व्यवहार</string>
+    <string name="p84">छ</string>
+    <string name="p85">छैन</string>
+    <string name="p86">व्यक्ति हराएको</string>
+    <string name="p87">छ</string>
+    <string name="p88">छैन</string>
+    <string name="p89">नपा क्षेत्रभित्र सुरक्षित महसुस गर्नुहुन्छ?</string>
+    <string name="p90">गर्छ</string>
+    <string name="p91">गर्दैन</string>
+    <string name="p92">गर्छ भने किन</string>
+    <string name="p93">सुरक्षा निकाय सक्रिय रहेको</string>
+    <string name="p94">अन्य</string>
+    <string name="p95">गर्दैन भने</string>
+    <string name="p96">असुरक्षित महसुस गर्नुको कारण</string>
+    <string name="p97">बाढी पहिरो</string>
+    <string name="p98">जनावर आतंक</string>
+    <string name="p99">असिना, चटयांक, करेन्ट</string>
+    <string name="p100">भूकम्प</string>
+    <string name="p101">हुरी बतास</string>
+    <string name="p102">खँडेरी</string>
+    <string name="p103">आगलागी</string>
+    <string name="p104">महामारीबाट</string>
+    <string name="p105">चोरी, डकैती, काटमार दुर्घटना</string>
+    <string name="p106">सडक दुर्घटना</string>
+    <string name="p107">सडक दुर्घटना</string>
+    <string name="p108">असुरक्षित महसुस गरिने स्थान ( कुनै छ भने)</string>
+    <string name="p109">वडा नं</string>
+    <string name="p110">0</string>
+    <string name="p111">बस्तीको नाम</string>
+    <string name="p112">बस्तीको नाम</string>
+    <string name="s1">सामाजिक सुरक्षा तथा सहभागिता</string>
+    <string name="s2">बालश्रमको अवस्था</string>
+    <string name="s3">तपाईको घरबाट १६ बर्षसम्मका केटाकेटी अरूको घरमा काम गर्न गएका छन्?</string>
+    <string name="s33">छ</string>
+    <string name="s4">छैन</string>
+    <string name="s5">छ भने कति जना</string>
+    <string name="s6">बालक</string>
+    <string name="s7">जना</string>
+    <string name="s8">बालिका</string>
+    <string name="s9">जना</string>
+    <string name="s10">तपाईको घरमा १६ वर्षसम्मका केटाकेटी काम गर्न राखेको छ?</string>
+    <string name="s11">छ</string>
+    <string name="s12">छैन</string>
+    <string name="s13">छ भने कति जना</string>
+    <string name="s14">केटा</string>
+    <string name="s15">जना</string>
+    <string name="s16">केटी</string>
+    <string name="s17">जना</string>
+    <string name="s18">कुनै बालबालिका कुलतमा फसेका छन्?</string>
+    <string name="s19">छ</string>
+    <string name="s20">छ भने</string>
+    <string name="s21">धुम्रपान</string>
+    <string name="s22">मदपान</string>
+    <string name="s23">लागुपदार्थ</string>
+    <string name="s24">परिवारमा नागरिकता, पासपोर्ट, जन्मदर्ता, विवाह दर्ता, जग्गाधनी पूर्जा, पेन्सन पट्टा, भूकम्प पीडित कार्ड संख्या</string>
+    <string name="s25">परिवारमा बृद्ध भत्ता, विधवा भत्ता, एकल महिला भत्ता, अपांग भत्ता, पोषण भत्ता, लोपोन्मुख समूह भत्ता सेवाहरुबाट बन्चित सदश्य संख्या</string>
+    <string name="s26">परिवारमा अविवाहित को संख्या</string>
+    <string name="s27">परिवारमा विवाहित को संख्या</string>
+    <string name="s28">परिवारमा बहुविवाह को संख्या</string>
+    <string name="s29">परिवारमा पुनः विवाह को संख्या</string>
+    <string name="s30">परिवारमा एकल को संख्या</string>
+    <string name="s31">परिवारमा सम्बन्ध विच्छेद को संख्या</string>
+    <string name="s32">परिवारमा छुट्टिएको तर सम्बन्ध बिच्छेद नभएको को संख्या</string>
+    <string name="s34">निर्णयमा लैंगिक सहभागिता</string>
+    <string name="s35">परिवारमा महत्वपूर्ण विषयमा कसरी निर्णय हुने गरेको छ?</string>
+    <string name="s36">घरमुली आफैले एकल निर्णयबाट</string>
+    <string name="s37">घरका पुरूष सदस्यतामात्रको छलफलबाट</string>
+    <string name="s38">परिवारका महिला सदस्य मात्रको छलफलबाट</string>
+    <string name="s39">परिवारका सबै सदस्यको छलफलबाट</string>
+    <string name="s40">महिलाको नाममा कस्ता सम्पत्तिहरू रहेका छन्?</string>
+    <string name="s41">जग्गा</string>
+    <string name="s42">घर</string>
+    <string name="s43">सवारी साधन</string>
+    <string name="s44">बैंक व्यालेन्स</string>
+    <string name="s45">गरगहना</string>
+    <string name="s46">अन्य</string>
+    <string name="s47">सामाजिक विकास</string>
+    <string name="s48">तपाईको परिवारले कुन कुन सामाजिक सुरक्षा भत्ता लिने गरेको छ?</string>
+    <string name="s49">ज्येष्ठ नागरिक</string>
+    <string name="s50">एकल पुरूप</string>
+    <string name="s51">एकल महिला</string>
+    <string name="s52">अपांगता</string>
+    <string name="s53">द्वन्द्व पीडित</string>
+    <string name="s54">अन्य</string>
+    <string name="s55">तपाईको परिवारको कुनै सदस्य नगरपालिकाद्वारा सञ्चालित बिकासको कार्यमा सहभागी हुनुभएको छ?</string>
+    <string name="s56">छ</string>
+    <string name="s57">छैन</string>
+    <string name="s58">राजनीतिक दलको निर्णायक पदमा आबद्ध संख्या</string>
+    <string name="s59">केन्द्रीय तह</string>
+    <string name="s60">0</string>
+    <string name="s61">प्रदेश तह</string>
+    <string name="s62">0</string>
+    <string name="s63">जिल्ला तह</string>
+    <string name="s64">0</string>
+    <string name="s65">पालिका तह</string>
+    <string name="s66">0</string>
+    <string name="s67">बार्ड तह</string>
+    <string name="s68">0</string>
+    <string name="s69">तपाईको बिचारमा तपार्इको सहरको पहिलो बिकास प्राथमिकता के हो?</string>
+    <string name="s70">कृषि</string>
+    <string name="s71">पर्यटकीय</string>
+    <string name="s72">व्यापारिक</string>
+    <string name="s73">औद्योगिक</string>
+    <string name="s74">आबासिय</string>
+    <string name="s75">Medical City</string>
+    <string name="s76">Cultural Tourism</string>
+    <string name="s77">Regional Connectivity – Nodal City</string>
+    <string name="h1">स्वास्थ्य अवस्था</string>
+    <string name="h2">खोप लगाउने गरेको</string>
+    <string name="h3">हेपाटाइतिस</string>
+    <string name="i1">सदस्य नंवर</string>
+    <string name="i2">नाम थर</string>
+    <string name="i3">लिङ्ग</string>
+    <string name="i4">पुरूष</string>
+    <string name="i5">महिला</string>
+    <string name="i6">तेस्रो</string>
+    <string name="i7">उमेर</string>
+    <string name="ii8">घरमुलीको नाता</string>
+    <string name="i9">घरमुली आफै</string>
+    <string name="i10">बाबु</string>
+    <string name="i11">आमा</string>
+    <string name="i12">हजुरबुवा</string>
+    <string name="i13">हजुरआमा</string>
+    <string name="i14">छोरा</string>
+    <string name="i15">छोरी</string>
+    <string name="i16">बुहारी</string>
+    <string name="i17">श्रीमान</string>
+    <string name="i18">श्रीमति</string>
+    <string name="i19">दाजु</string>
+    <string name="i20">भाइ</string>
+    <string name="i21">दिदी</string>
+    <string name="i22">बहिनी</string>
+    <string name="i23">सासु</string>
+    <string name="i24">ससुरा</string>
+    <string name="i25">नाती</string>
+    <string name="i26">नातीनी</string>
+    <string name="i27">अन्य</string>
+    <string name="i28">गएको ६ महिना वा बढि समयको लागि घर छोडेर अन्यत्र वसोवास गर्नुभएको छ?</string>
+    <string name="i29">छ</string>
+    <string name="i30">छैन</string>
+    <string name="i31">छ भने किन</string>
+    <string name="i32">अध्ययनको लागि</string>
+    <string name="i33">रोजगारी</string>
+    <string name="i34">अन्य</string>
+    <string name="i35">अन्य</string>
+    <string name="i36">शैक्षिक विवरण</string>
+    <string name="i37">शिक्षा</string>
+    <string name="i38">लेखपढ गर्न नसक्ने</string>
+    <string name="i39">बालविकास</string>
+    <string name="i40">साक्षर</string>
+    <string name="i41">प्रा वि</string>
+    <string name="i42">नि मा वि</string>
+    <string name="i43">मा वि</string>
+    <string name="i44">उ मा वि</string>
+    <string name="i45">स्नातक</string>
+    <string name="i46">स्नातकोत्तर</string>
+    <string name="i47">विद्यावारिधि</string>
+    <string name="i48">पढ्ने उमेर नभएको</string>
+    <string name="i49">विद्यालयको प्रकार (१६ वर्षसम्म)</string>
+    <string name="i50">संस्थागत</string>
+    <string name="i51">सामुदायिक</string>
+    <string name="i52">जान छोडेको</string>
+    <string name="i53">विद्यालय जान छोडेको हो भने नजानको कारण</string>
+    <string name="i54">घरमा काम सघाउन</string>
+    <string name="i55">स्कूल टाढा</string>
+    <string name="i56">पढ्न मन नलागेर</string>
+    <string name="i57">दैवीक प्रकोपकले</string>
+    <string name="i58">स्कूलको खर्च नपुगेर</string>
+    <string name="i59">बसाई सराइ</string>
+    <string name="i60">रोग</string>
+    <string name="i61">फरक क्षमतामैत्री नभएर</string>
+    <string name="i62">अन्य कारण</string>
+    <string name="r1">रोजगारी तथा बैंक विवरण</string>
+    <string name="r2">पेशा (१५ वर्षमाथि)</string>
+    <string name="r3">अध्ययन</string>
+    <string name="r4">कृषि तथा पशुपंक्षी पालन</string>
+    <string name="r5">सरकारी नोकरी</string>
+    <string name="r6">गैरसरकारी नोकरी</string>
+    <string name="r7">निजीक्षेत्र नोकरी</string>
+    <string name="r8">उद्यम तथा व्यापार</string>
+    <string name="r9">ज्याला मजदुरी</string>
+    <string name="r10">घर गृहस्थी</string>
+    <string name="r11">बैदेशिक रोजगारी</string>
+    <string name="r12">पेन्सन</string>
+    <string name="r13">स्वरोजगार</string>
+    <string name="r14">बेरोजगार</string>
+    <string name="r15">अन्य (अन्य पेशा)</string>
+    <string name="r16">देश बाहिर छ भने</string>
+    <string name="r17">कुन देश</string>
+    <string name="r18">मलेशिया</string>
+    <string name="r19">साउदी अरेबिया</string>
+    <string name="r20">कतार</string>
+    <string name="r21">यु.ए.र्इ.</string>
+    <string name="r22">कुबेत</string>
+    <string name="r23">बहरार्इन</string>
+    <string name="r24">ओमान</string>
+    <string name="r25">जापान</string>
+    <string name="r26">भारत</string>
+    <string name="r27">कोरिया</string>
+    <string name="r28">अमेरिका</string>
+    <string name="r29">अन्य (अन्य देश)</string>
+    <string name="r30">वैदेशिक रोजगारीबाट रकम प्राप्त गर्ने गरेको छ भने केको मार्फत पाउनुहुन्छ?</string>
+    <string name="r31">बैंक</string>
+    <string name="r32">अन्य वित्तिय संस्था</string>
+    <string name="r33">व्यक्ति मार्फत</string>
+    <string name="r34">मनीट्रान्सफर</string>
+    <string name="r35">हुण्डी</string>
+    <string name="r36">अन्य</string>
+    <string name="r37">दक्षता, सीप तथा कला (बहु विकल्प)</string>
+    <string name="r38">केही नभएको</string>
+    <string name="r39">डकर्मी</string>
+    <string name="r40">सिकर्मी</string>
+    <string name="r41">ड्राइभर</string>
+    <string name="r42">मेकानिक्स</string>
+    <string name="r43">स्वास्थ्य कर्मी</string>
+    <string name="r44">इलेक्ट्रीसियन</string>
+    <string name="r45">सिलार्इ बुनार्इ</string>
+    <string name="r46">कृषि प्राविधिक</string>
+    <string name="r47">वन प्राविधिक</string>
+    <string name="r48">प्लम्बर</string>
+    <string name="r49">इन्जिनियरिङ</string>
+    <string name="r50">सामाजिक परिचालन</string>
+    <string name="r51">संगीत तथा कला</string>
+    <string name="r52">पत्रकारिता</string>
+    <string name="r53">लघु उद्यम</string>
+    <string name="r54">अन्य दक्षता, सीप तथा कला छ भने</string>
+    <string name="r55">दक्षता</string>
+    <string name="r56">नियमित बचत गर्नुहुन्छ?</string>
+    <string name="r57">गर्छ</string>
+    <string name="r58">गर्दैन</string>
+    <string name="r59">गर्छ भने कता</string>
+    <string name="r60">सहकारी</string>
+    <string name="r61">बैंक</string>
+    <string name="r62">उद्यम समूह</string>
+    <string name="r63">लघुवित्त</string>
+    <string name="o1">सामाजिक</string>
+    <string name="o2">सामाजिक संलग्नता – कुन संघ संस्था वा समुहमा अवद्ध</string>
+    <string name="o3">टोल विकास संस्था</string>
+    <string name="o4">कृषि वा पशुपालन समुह</string>
+    <string name="o5">सामुदायिक वा कबुलियती वन समुह</string>
+    <string name="o6">सहकारी संस्था</string>
+    <string name="o7">गैर सरकारी संस्था</string>
+    <string name="o8">सांस्कृतिक समूह (गुठी, कुल, धर्म)</string>
+    <string name="o9">महिला समुह</string>
+    <string name="o10">आमा समुह</string>
+    <string name="o11">लघुबित्त समुह</string>
+    <string name="o12">उपभोक्ता समुह वा समिति</string>
+    <string name="o13">कतै आवद्ध नभएको</string>
+    <string name="o14">बालक्लब</string>
+    <string name="o16">जनचेतना तथा सीपमूलक तालिम प्राप्त</string>
+    <string name="o17">छ</string>
+    <string name="o18">छैन</string>
+    <string name="o19">छ भने</string>
+    <string name="o20">नेतृत्व तथा संस्थागत विकास</string>
+    <string name="o21">व्यवसायिक सीप विकास</string>
+    <string name="o22">पोषण तथा मातृ शिशु स्याहार</string>
+    <string name="o23">विपद् जोखिम न्यूनीकरण</string>
+    <string name="o24">खानेपानी र स्वास्थ्य र सरसफार्इ</string>
+
+
+    <string-array name="swamittwa">
+        <item>घरधनी</item>
+        <item>भाडा</item>
+    </string-array>
+
+
+    <string-array name="jatjati">
+        <item>-</item>
+        <item>बाहुन</item>
+        <item>क्षेत्री</item>
+        <item>नेवार</item>
+        <item>तामाङ</item>
+        <item>मगर</item>
+        <item>सुनुवार</item>
+        <item>माझी</item>
+        <item>शेर्पा</item>
+        <item>हायु</item>
+        <item>पहारी</item>
+        <item>भुजेल</item>
+        <item>गुरूङ</item>
+        <item>राई</item>
+        <item>लिम्बु</item>
+        <item>जिरेल</item>
+        <item>थामी</item>
+        <item>सन्यासी</item>
+        <item>कामी</item>
+        <item>दमाई</item>
+        <item>सार्की</item>
+        <item>बादी</item>
+        <item>मुसलमान</item>
+        <item>याक्खा </item>
+
+    </string-array>
+
+
+
+    <string-array name="dharma">
+        <item>-</item>
+        <item>हिन्दू</item>
+        <item>बौद्ध</item>
+        <item>इस्लाम</item>
+        <item>क्रिश्चियन</item>
+        <item>किराँत</item>
+        <item>शिख</item>
+        <item>जैन</item>
+        <item>अन्य</item>
+
+
+
+    </string-array>
+
+
+    <string-array name="vasa">
+        <item>-</item>
+        <item>नेपाली</item>
+        <item>तामाङ</item>
+        <item>मगर</item>
+        <item>थामी</item>
+        <item>नेवारी</item>
+        <item>सुनुवार</item>
+        <item>माझी</item>
+        <item>शेर्पा</item>
+        <item>गुरूङ</item>
+        <item>राई</item>
+        <item>लिम्बु</item>
+        <item>मैथिली</item>
+        <item>भोजपुरी</item>
+        <item>थारू</item>
+        <item>उर्दू</item>
+        <item>अवधि</item>
+        <item>राजवंशी</item>
+    </string-array>
+
+
+
+
+
+</resources>

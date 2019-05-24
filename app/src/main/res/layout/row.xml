@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:background="#caeccf"
+        android:layout_margin="9dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Kram-->
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:paddingLeft="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="5dp"
+                android:textSize="18dp"
+                android:text="क्रम: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#000000"
+                android:paddingLeft="5dp"
+                android:textSize="18dp"
+                android:text="ID"
+                android:id="@+id/row_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--Ghar code-->
+        <!--<LinearLayout-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:paddingLeft="7dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TextView-->
+                <!--android:textColor="#000000"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:textSize="18dp"-->
+                <!--android:text="घर नं कोड: "-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<TextView-->
+                <!--android:textColor="#000000"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:textSize="18dp"-->
+                <!--android:text="Ghar Code"-->
+                <!--android:id="@+id/row_code"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--Lat-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingLeft="7dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="अक्षांशः: "
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/row_lat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="Latitude"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+        <!--Ward-->
+        <!--<LinearLayout-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:paddingLeft="7dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TextView-->
+                <!--android:textColor="#000000"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:textSize="18dp"-->
+                <!--android:text="बार्ड नं: "-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<TextView-->
+                <!--android:textColor="#000000"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:textSize="18dp"-->
+                <!--android:text="Ward"-->
+                <!--android:id="@+id/row_ward"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+
+
+        <!--</LinearLayout>-->
+
+
+        <!--&lt;!&ndash;GharDhani&ndash;&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:paddingLeft="7dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TextView-->
+
+                <!--android:textColor="#000000"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:textSize="18dp"-->
+                <!--android:text="घरधनी: "-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<TextView-->
+                <!--android:textColor="#000000"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:textSize="18dp"-->
+                <!--android:text="Ghar Dhani"-->
+                <!--android:id="@+id/row_ghardhani"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+
+
+        <!--</LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

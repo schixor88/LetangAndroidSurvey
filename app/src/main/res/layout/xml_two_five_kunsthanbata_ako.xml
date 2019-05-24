@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/d2_layout_if_not_raithane1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/where_you_comefrom"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hereNp"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/et_kunsthanbataako_ward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(वडा)"
+            android:padding="15dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thisJilla"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/et_kunsthanbataako_jilla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/npajpa"
+            android:padding="15dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thisJillas"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/et_kunsthanbataako_aru_jilla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(जिल्ला)"
+            android:padding="15dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bideshbatacome"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/et_kunsthanbataako_bidesh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(विदेश)"
+            android:padding="15dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

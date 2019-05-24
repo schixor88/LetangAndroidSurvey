@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scroll_v_1"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <include layout="@layout/activity_parent"/>
+
+
+
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:background="#DCDCDC"
+        android:weightSum="4"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@id/scroll_v_1"
+        android:id="@+id/linear_btn"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="@color/fbutton_color_green_sea"
+            fancy:fb_focusColor="@color/fbutton_color_emerald"
+            fancy:fb_textSize="18dp"
+            fancy:fb_radius="20dp"
+            fancy:fb_text="Save"
+            fancy:fb_textColor="#FFFFFF"/>
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_weight="1"
+            android:id="@+id/btn_export"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="@color/fbutton_color_belize_hole"
+            fancy:fb_focusColor="@color/fbutton_color_peter_river"
+            fancy:fb_textSize="18dp"
+            fancy:fb_radius="20dp"
+            fancy:fb_text="Export"
+            fancy:fb_textColor="#FFFFFF"/>
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+
+            android:layout_weight="1"
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="@color/fbutton_color_pomegranate"
+            fancy:fb_focusColor="@color/fbutton_color_alizarin"
+            fancy:fb_textSize="18dp"
+            fancy:fb_radius="20dp"
+            fancy:fb_text="Delete"
+            fancy:fb_textColor="#FFFFFF"/>
+
+        <!--<Button-->
+        <!---->
+        <!--android:id="@+id/btn_clear"-->
+        <!--android:text="C"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    </LinearLayout>
+
+
+
+
+    <ListView
+        android:layout_below="@id/linear_btn"
+        android:choiceMode="singleChoice"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+
+
+</RelativeLayout>

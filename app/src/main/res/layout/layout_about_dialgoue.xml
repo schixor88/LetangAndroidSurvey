@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="7dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:padding="8dp"
+            android:id="@+id/o1"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="ध्यान पुर्याउन पर्ने कुराहरु"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="#000"
+            android:padding="8dp"
+            android:id="@+id/o2"
+            android:layout_below="@id/o1"
+            android:textAlignment="center"
+            android:text="फोनको लोकेशन (Location) ON गर्न नबिर्सिनु होला"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include layout="@layout/menu_seperator"/>
+
+
+        <TextView
+            android:textColor="#000"
+            android:padding="8dp"
+            android:id="@+id/o3"
+            android:layout_below="@id/o2"
+            android:textAlignment="center"
+            android:text="एउटा घरको डाटा (Data) लाई एकचोटी मात्र सेभ (Save) गर्नुहोला"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <include layout="@layout/menu_seperator"/>
+
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/o4"
+            android:layout_below="@id/o3"
+            android:textAlignment="center"
+            android:text="सेभ (Save) गरेपछि अर्को घरको बिबरण माथिदेखि भर्नुहोला"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <include layout="@layout/menu_seperator"/>
+
+        <TextView
+            android:textColor="#000"
+            android:padding="8dp"
+            android:id="@+id/o5"
+            android:layout_below="@id/o4"
+            android:textAlignment="center"
+            android:text="विवरण जम्मा गर्दा गर्दै Back र Home नाथिच्नु होला"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <include layout="@layout/menu_seperator"/>
+
+        <TextView
+            android:textColor="#000"
+            android:padding="8dp"
+            android:id="@+id/o6"
+            android:layout_below="@id/o5"
+            android:textAlignment="center"
+            android:text="एकदिनको सबै Save गरेको विवरण त्यहि दिन इन्टरनेटबाट Export गर्नुहोला"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <include layout="@layout/menu_seperator"/>
+
+        <TextView
+            android:textColor="#000"
+            android:padding="8dp"
+            android:id="@+id/o7"
+            android:layout_below="@id/o6"
+            android:textAlignment="center"
+            android:text="एकदिनमा एकचोटी बेलुका मात्र Export गर्नुपर्ने हुन्छ, एकैदिनमा धेरै Export नगर्नुहोला"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <include layout="@layout/menu_seperator"/>
+
+        <TextView
+            android:textColor="#000"
+            android:padding="8dp"
+            android:id="@+id/o8"
+            android:layout_below="@id/o7"
+            android:textAlignment="center"
+            android:text="अर्कोदिनको विवरण लिनु भन्दा अगाडी अघिल्लो दिनको सबै एकएक Delete गर्नुहोला"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

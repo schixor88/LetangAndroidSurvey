@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/d1i2j3k"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/title_fontSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ashdu1"
+        android:textColor="@color/colorBlackText"
+        android:textSize="@dimen/question_fontSize" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap">
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/heyraam"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toitsala"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asjdui124"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asdjio12"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asdjio12asd"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nkadsjq"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asdjio1"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maskkkksi"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mt848"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/davshool"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/njdhgfp"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastaivoyar"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asdjioq123"
+            app:layout_flexBasisPercent="50%" />
+
+        <CheckBox
+            android:id="@+id/t2_onlineServices_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asjod8846"
+            app:layout_flexBasisPercent="50%" />
+
+        <EditText
+            android:id="@+id/t2_onlineServices_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_flexBasisPercent="100%"
+            android:hint="@string/otitotitot0"/>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <include layout="@layout/separator" />
+</LinearLayout>

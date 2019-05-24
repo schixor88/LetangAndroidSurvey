@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/d2_layout_if_not_raithane2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Non Raithney-->
+    <!--2.6 Basnu ko karan k hola?-->
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+
+            <RadioGroup
+                android:id="@+id/rg_sarnu_reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@string/basaikaran_exceptraithane"
+                    android:textColor="@color/colorBlackText"
+                    android:textSize="22sp" />
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/colorGray" />
+
+
+                <RadioButton
+                    android:id="@+id/rb_sarnu_gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="none"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/rb_sarnu_rojgar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/rojgari"
+                    android:textSize="17dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_sarnu_edu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/teachings"
+                    android:textSize="17dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_sarnu_income"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aarthikaabasr"
+                    android:textSize="17dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_sarnu_security"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/surakshyaa"
+                    android:textSize="17dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_sarnu_marriage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biwahaa"
+                    android:textSize="17dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_sarnu_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/byabasayesipp"
+                    android:textSize="17dp" />
+
+
+
+                    <RadioButton
+
+                        android:id="@+id/rb_sarnu_other_aanya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="अन्य"
+                        android:textSize="17dp" />
+
+                    <EditText
+                        android:id="@+id/et_aanya_basai_sarnu_reason"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
